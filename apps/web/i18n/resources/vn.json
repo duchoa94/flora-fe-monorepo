@@ -1,0 +1,80 @@
+{
+  "product": {
+    "id": "Mã SP",
+    "title": "Sản phẩm",
+    "create": "Tạo sản phẩm",
+    "short_code": "Mã hàng (rút gọn)",
+    "code": "Mã hàng",
+    "name": "Tên sản phẩm",
+    "description": "Mô tả sản phẩm",
+    "unit": "Đơn vị",
+    "price": "Giá",
+    "list": "Sản phẩm",
+    "search": "Tìm kiếm sản phẩm",
+    "quantity": "Số lượng",
+    "amount": "Tổng tiền",
+    "add": "Thêm sản phẩm"
+  },
+  "common": {
+    "save": "Lưu",
+    "cancel": "Huỷ",
+    "edit": "Chỉnh sửa",
+    "customer": "Khách hàng",
+    "actions": "Thao tác",
+    "date_modified": "Ngày cập nhật",
+    "id": "ID",
+    "search": "Tìm kiếm",
+    "name": "Tên",
+    "order": "Đơn hàng",
+    "product": "Sản phẩm",
+    "home": "Trang chủ",
+    "status": "Trạng thái",
+    "users": "Người dùng",
+    "delete": "Xoá"
+  },
+  "pricing": {
+    "for_customer": "Danh sách giá"
+  },
+  "order": {
+    "id:": "Mã đơn hàng",
+    "list": "Danh sách đơn hàng",
+    "order_code": "Số ĐH",
+    "total_amount": "Tổng tiền",
+    "customer_id": "Mã khách hàng",
+    "delivery_address": "Địa chỉ giao hàng",
+    "delivery_person": "Người giao hàng",
+    "delivery_date": "Ngày giao hàng",
+    "created_by": "Người tạo",
+    "create": "Tạo đơn hàng",
+    "add_note": "Thêm ghi chú",
+    "note": "Ghi chú",
+    "quantity": "Số lượng",
+    "delivery_code": "Số phiếu",
+    "delivery_image": "Ảnh phiếu giao"
+  },
+  "customer": {
+    "search": "Tìm kiếm khách hàng",
+    "id": "Mã KH",
+    "name": "Tên KH",
+    "title": "Khách hàng",
+    "address": "Địa chỉ",
+    "description": "Mô tả",
+    "tax_code": "Mã số thuế",
+    "create": "Tạo khách hàng"
+  },
+  "order_report": {
+    "title": "Bảng Kê",
+    "generate": "Tạo bảng kê",
+    "start_date": "Ngày bắt đầu",
+    "end_date": "Ngày kết thúc",
+    "download": "Tải bảng kê"
+  },
+  "user": {
+    "role": "Vai trò",
+    "name": "Tên",
+    "email": "Email",
+    "password": "Mật khẩu",
+    "create": "Tạo tài khoản",
+    "edit": "Chỉnh sửa tài khoản"
+  }
+}

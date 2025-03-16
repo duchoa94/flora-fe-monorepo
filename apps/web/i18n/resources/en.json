@@ -1,0 +1,80 @@
+{
+  "product": {
+    "id": "Product ID",
+    "title": "Product",
+    "create": "Add Product",
+    "short_code": "Short Code",
+    "code": "Product Code",
+    "name": "Product Name",
+    "description": "Description",
+    "unit": "Unit",
+    "price": "Price",
+    "list": "Products",
+    "search": "Search Product",
+    "quantity": "Quantity",
+    "amount": "Amount",
+    "add": "Add Products"
+  },
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "edit": "Edit",
+    "customer": "Customer",
+    "actions": "Actions",
+    "date_modified": "Date Modified",
+    "id": "ID",
+    "search": "Search",
+    "name": "Name",
+    "order": "Order",
+    "product": "Products",
+    "home": "Dashboard",
+    "status": "Status",
+    "users": "Users",
+    "delete": "Delete"
+  },
+  "pricing": {
+    "for_customer": "Pricings For Customer"
+  },
+  "order": {
+    "id:": "ID",
+    "list": "Order List",
+    "order_code": "Order Code",
+    "total_amount": "Total Amount",
+    "customer_id": "Customer ID",
+    "delivery_address": "Delivery Address",
+    "delivery_person": "Delivery Person",
+    "delivery_date": "Delivery Date",
+    "created_by": "Created By",
+    "create": "Create Order",
+    "add_note": "Add Notes",
+    "note": "Notes",
+    "quantity": "Quantity",
+    "delivery_code": "Delivery Code",
+    "delivery_image": "Delivery Image"
+  },
+  "customer": {
+    "search": "Search Customer",
+    "id": "Customer Id",
+    "name": "Name",
+    "title": "Customer",
+    "address": "Address",
+    "description": "Description",
+    "tax_code": "Tax Code",
+    "create": "Create Customer"
+  },
+  "order_report": {
+    "title": "Order Report",
+    "generate": "Generate",
+    "start_date": "Start Date",
+    "end_date": "End Date",
+    "download": "Download Report"
+  },
+  "user": {
+    "role": "Role",
+    "name": "Name",
+    "email": "Email",
+    "password": "Password",
+    "create": "Create User",
+    "edit": "Edit User"
+  }
+}
