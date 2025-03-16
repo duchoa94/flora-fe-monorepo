@@ -3,5 +3,9 @@
 import { SignUpPageContainer } from '@/modules/auth/sign-up/SignUpPageContainer';
 
 export default function SignUpPage() {
-  return <SignUpPageContainer />;
+  return (
+    <div className="flex flex-col h-screen">
+      <SignUpPageContainer />
+    </div>
+  );
 }

@@ -35,7 +35,7 @@ export const SignInPageContainer = () => {
           )}
 
           <div className="-space-y-px">
-            <div className="py-8">
+            <div className="py-4">
               <label htmlFor="email" className="sr-only">
                 Email address
               </label>
@@ -51,7 +51,7 @@ export const SignInPageContainer = () => {
                 onChange={handleChange}
               />
             </div>
-            <div>
+            <div className="py-4">
               <Label htmlFor="password" className="sr-only">
                 Password
               </Label>

@@ -17,7 +17,7 @@ export function handleResponseError(e: unknown) {
 
 export function handleResponseData(e: AxiosResponse) {
   if (!(e instanceof AxiosError) && e.data) {
-    return { status: true, data: e.data };
+    return e.data;
   }
 
   return { status: false, error: { code: 400, message: JSON.stringify(e) } };

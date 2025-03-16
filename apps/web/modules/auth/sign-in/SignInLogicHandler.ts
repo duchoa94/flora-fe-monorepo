@@ -1,6 +1,6 @@
 import { authService } from '@/services/AuthService';
 import { LoginRequest } from '@flora/common/src/types/user';
-import router from 'next/router';
+import { useRouter } from 'next/navigation';
 import { useState } from 'react';
 
 export interface SignInFormData {
@@ -9,6 +9,7 @@ export interface SignInFormData {
 }
 
 export function useSignInLogic() {
+  const router = useRouter();
   const [formData, setFormData] = useState<SignInFormData>({
     email: '',
     password: '',
@@ -36,7 +37,6 @@ export function useSignInLogic() {
       };
 
       const response = await authService.login(loginRequest);
-
       if (response?.status && response.data) {
         // Store token in localStorage
         localStorage.setItem('token', response.data.user.token);
